@@ -1,30 +1,21 @@
 # photoedit
-日本語のREADMEはこちらです: [README.ja.md](README.ja.md)
 
-A tool for editing photos by removing names or other elements.
+A Web/Code project by [Code for FUKUI](https://github.com/code4fukui).
 
-## Features
-- Extracts a photo without name or other elements using a specified box height, start line, and height of lines to skip
-- Supports JPEG format
+**Live demo**: https://code4fukui.github.io/photoedit/
 
-## Usage
-1. Import the `cutNames` function from the `cutNames.js` file:
+## Technology Stack
 
-   ```javascript
-   import { cutNames } from "./cutNames.js";
-   ```
 
-2. Call the `cutNames` function with the following parameters:
-   - `jpgfn`: the input JPEG file path
-   - `dstfn`: the output JPEG file path without the removed elements
-   - `boxHeight`: the height of the box to extract
-   - `skipLineStart`: the starting line to skip
-   - `skipLineHeight`: the height of the lines to skip
+## Installation & Setup
 
-   Example:
-   ```javascript
-   cutNames("kosen-incol.jpg", "kosen-incol-noname.jpg", 282, 240, 44);
-   ```
+No build step required. Clone the repository and open `index.html` in a browser,
+or visit the live demo at https://code4fukui.github.io/photoedit/
+
+## Contributing
+
+Contributions are welcome. Please open an issue or pull request on GitHub.
 
 ## License
-This project is licensed under the [MIT License](LICENSE).
+
+MIT License. See [LICENSE](./LICENSE) for details.
